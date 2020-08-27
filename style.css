@@ -1,0 +1,87 @@
+
+.box{
+    width: 500px;
+    height: 510px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 15px 15px 20px #cbcbcb , -15px -15px 20px #cbcbcb;
+    padding: 10px 20px ;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    background-color: #576357;
+    padding: 2px 0px;
+    border-radius: 50px;
+    color: #fff;
+}
+#questions{
+    font-size: 1.5rem;
+    font-weight: 20px;
+    color: #5a5a5a;
+}
+
+.options{
+    margin-top: 30px;
+    
+}
+
+.option{
+    border:none;
+    outline: none;
+    width: 200px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #778897;
+    border-radius: 50px;
+    padding: 10px 10px;
+    border: none;
+    margin: 10px 40px 10px 0px;
+    display: inline-block;
+
+}
+.option:hover{
+    cursor: pointer;
+    background-color: grey;
+    
+    
+}
+
+.btn-next{
+    border:none;
+    outline: none;
+    background: rgba(255,25,255,0.5);
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin:10px;
+    margin-left: 2rem;
+
+}
+.btn-next:hover{
+    background: #08038c;
+    color :#f6f6f6;
+}
+
+.active{
+    background-color:yellowgreen;
+    color: whitesmoke;
+}
+
+.award_icon {
+    display: block;
+    font-size: 300px;
+    color: #fff;
+  }
+
+  .wrapper{
+    color: #fff;
+    text-align: center;
+    margin-top: 15rem;
+  }
+  h1,p{
+      font-size: 3rem;
+  }
